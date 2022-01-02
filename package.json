@@ -1,0 +1,27 @@
+{
+  "name": "uploads-manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ComicScrip/uploads-manager.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ComicScrip/uploads-manager/issues"
+  },
+  "homepage": "https://github.com/ComicScrip/uploads-manager#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "multer": "^1.4.4",
+    "nodemon": "^2.0.15",
+    "uniqid": "^5.4.0"
+  }
+}
