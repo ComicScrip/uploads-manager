@@ -35,7 +35,7 @@ app.post('/files', handleUpload.array('files'), (req, res) => {
       .send('You should send at least one file in a "files" field');
   res.send(
     req.files.map((file) => ({
-      url: req.protocol + '://' + req.headers.host + '/' + file.path,
+      url: process.env.API_URL + '/' + file.path,
     }))
   );
 });
